@@ -1,0 +1,24 @@
+---
+layout: default
+show_explorer: false
+colecoes: 
+---
+<div class="row listrecent"> 
+{% for colecao in page.colecoes %}
+	<div class="section-title col-md-12 mt-4">
+		<h2 id="{{ colecao | downcase }}">- <span class="text-capitalize">{{ colecao }}</span></h2>
+	</div>  
+	{% for item in site[colecao] %}
+		{% assign pages_list = site[colecao] %}
+		{% for post in pages_list %}
+			{% if post.title != null %}
+				{% if group == null or group == post.group %}
+					{% include postbox.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}	
+    {% endfor %}  
+{% endfor %}
+</div>
