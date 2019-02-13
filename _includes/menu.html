@@ -1,0 +1,26 @@
+
+
+{% for item in menu %}
+	{% if item.url contains "://" %} 
+		{%capture link %}  {{ item.url }} {% endcapture %}  
+	{% else %} 
+		{%capture link %} {{ site.baseurl }}{{ item.url }} {% endcapture %} 
+	{% endif %}
+	{% comment %}
+	<!-- p={{page.url}}  i={{item.url}} -->
+	{% endcomment %}
+	{% if page.url ==  item.url %}
+		{% assign classe = "active" %}
+	{% else %}
+	{% assign classe = "" %}
+	{% endif %}
+
+
+		<li class="nav-item">
+			<a class="nav-link {{ classe }}"  href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
+			{% if item.children %}
+				{% assign menu = item.children %}
+				{% include menu.html %}
+			{% endif %}
+		</li>
+{% endfor %}
