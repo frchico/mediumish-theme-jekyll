@@ -16,6 +16,7 @@ defaults:
       path: ""
     values:      
       show_explorer: true
+      comments: false
 
 # Plugins
 plugins: 
@@ -24,7 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-menus  
+  - jekyll-menus
 collections:
   projetos:
     output: true

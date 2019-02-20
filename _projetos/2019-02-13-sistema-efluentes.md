@@ -1,22 +1,64 @@
 ---
-layout: post
+layout: projeto
 title:  "Sistema de Efluentes"
-author: john
+author: frchico
+equipe: 
+  - john
+  - sal 
+  - frchico  
+  - sal1
 categories: [ Projetos, PIBITI ]
-image: assets/images/11.jpg
+# image: https://images.pexels.com/photos/92902/pexels-photo-92902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 # assets/images/11.jpg
 featured: false
 hidden: false
 excerpt_separator: <!--more-->
+slider:
+  text_color: white
+  shadow_color: black
+  slides: 
+    - image: /uploads/slider/image.jpg
+      slide_html:
+    - image: /uploads/slider/image1.jpg
+      slide_html: "<h3>La Passione 1/2</h3>Shirley, do you own a Ferrari?"
+    - image: /uploads/slider/image.jpg
+      slide_html: "<h3>La Passione 2/2</h3>Yes, my life is your dream."
+    - image: /uploads/slider/image1.jpg
+      slide_html:
 ---
+<div class="header-container">
+    <div class="container">
+		<p> Projeto para o desenvolvimento de um sistema Web para registrar os acontecimento de uma estação de tratamento de efluente.
+		</p>
+		<p> Desenvolvido pelo Grupo de pesquisa em Saneamento Ambiental, do <a href="http://www.ifs.edu.br" target="_blank">IFS</a>, tem como princípios:
+		</p>
+	</div>
+</div>
 
-No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML & CSS go in.<!--more--> Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
 
-Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.
+<div class="header-container">
+    <div class="container">
+      
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Auxílio no processo de coleta de dados</h3>
+            <p>Informar para o responsável técnico da ETE quais são os parâmetros que deverão ser coletados. Desta forma, o sistema informará quais os dados mínimos (físico, químico ou biológicos) que a estação deverá monitorar.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Suporte a múltiplas ETE</h3>
+            <p>O sistema está preparado para atender mais de uma estação de tratamento de eflentes. Possibilitando, assim, a personalização dos parametros que serão coletados em uma determinada estação de tratamento.</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Relatórios de eficiência</h3>
+            <p>Ao fazer uso do sistema o operador poderá acompanhar a eficiência de uma estação de tratamento.
+                 A comparação poderá realizada com os dados anteriores ou com outras estações de tratamento a qual ele é responsável.</p>
+        </div>
+    </div>
 
-## What is Jekyll?
 
-Jekyll is a simple, blog-aware, static site generator.
+</div>
 
-You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.
-
-Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.
+</div>

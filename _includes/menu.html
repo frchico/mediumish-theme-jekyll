@@ -1,5 +1,3 @@
-
-
 {% for item in menu %}
 	{% if item.url contains "://" %} 
 		{%capture link %}  {{ item.url }} {% endcapture %}  
@@ -15,12 +13,11 @@
 	{% assign classe = "" %}
 	{% endif %}
 
-
-		<li class="nav-item">
-			<a class="nav-link {{ classe }}"  href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
-			{% if item.children %}
-				{% assign menu = item.children %}
-				{% include menu.html %}
-			{% endif %}
-		</li>
+	<li class="nav-item">
+		<a class="nav-link {{ classe }}"  href="{{ link }}" title="{{ item.title }}">{{ item.title }}</a>
+		{% if item.children %}
+			{% assign menu = item.children %}
+			{% include menu.html %}
+		{% endif %}
+	</li>
 {% endfor %}
