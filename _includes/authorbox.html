@@ -1,17 +1,22 @@
-<div class="col-lg-4 col-md-6 mb-30px card-group">
+<div class="col-lg-3 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            {% if author.gravatar %} <img class="img-fluid" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}"> {% endif %}
+			{% if author.gravatar %} <img class="img-fluid" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=150&d=mm&r=x" alt="{{ author.display_name }}">
+			{% elsif author.image %}
+			<img class="img-fluid" style="max-height: 176.5px" src="{% if author.image contains "://" %}{{ author.image }}{% else %}{{ author.image | absolute_url }}{% endif %}" alt="{{author.display_name }}">
+			{% else %}
+			<img class="img-fluid" src="{{site.baseurl }}/assets/images/usuario.jpg">
+			{% endif %}
         </div>
         <div class="card-body">
             <h2 class="card-title">
 				{% if author.web %}
-				<a href="{% if author.web contains "://" %}{{ author.web }}{% else %}{{ author.web | absolute_url }}{% endif %}"> {{author.display_name }} </a>
+				<a _target="_blank" href="{% if author.web contains "://" %}{{ author.web }}{% else %}{{ author.web | absolute_url }}{% endif %}"> {{author.display_name }} </a>
 				{% else %}
 					{{author.display_name }}
 				{% endif %}
 			</h2>
-			<h4 class="card-text">{{ author.description  | strip_html | truncatewords:130 }}</h4>
+			<h4 class="card-text">{{ author.description  | strip_html | truncatewords:15 }}</h4>
         </div>
     </div>
 </div>

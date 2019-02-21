@@ -3,10 +3,26 @@ frchico:
   display_name: Francisco Rodrigues
   gravatar: 00b0cb1733b78abedc8c31283176dd7b
   #email: wowthemesnet@gmail.com
-  #web: https://www.wowthemes.net
+  web: http://lattes.cnpq.br/3413649401543375
   twitter: https://twitter.com/frchico
   description: "Mestre em Sistemas e Computação com graduação em Sistemas de Informações. Atualmente sou professor no Instituto Federal de Sergipe(IFS) pertencente ao curso de sistemas de informação no Campus Lagarto em Sergipe."
-john:
+carinassouza:
+  name: Carina Souza
+  display_name: Carina Souza
+  image: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4753165P5
+  #email: wowthemesnet@gmail.com
+  web: http://lattes.cnpq.br/6084297127090876
+  # twitter: https://twitter.com/frchico
+  description: "Professora no Instituto Federal de Sergipe(IFS)."
+folbricio:
+  name: Fabricio
+  display_name: Fabricio
+  # image: 
+  #email: wowthemesnet@gmail.com
+  # web: http://lattes.cnpq.br/6084297127090876
+  # twitter: https://twitter.com/frchico
+  description: "Aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+john1:
   name: Johnasds
   display_name: Johngggg
   gravatar: b1cc14991db7a456fcd761680bbc8f81

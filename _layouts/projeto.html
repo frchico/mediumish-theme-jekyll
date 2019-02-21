@@ -25,26 +25,30 @@ post_class: post-template
 				</small>
 			</div>
 		
-			<!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
-		
+			{% if page.slider %}
 			<!-- Post Content -->
-			<div class="row">
-				{% include flexslider-posts.html %}
-			</div>
+				<div class="row">
+					{% include flexslider-posts.html %}
+				</div>
+			{% else %}
+				<!-- Post Featured Image -->
+				{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
+			{% endif %}
+			
 			<div class="article-post">				
 				{{content}}
 			</div>
-
-            
+			<p></p>
+			
+			{% if page.equipe %}
+			<h3>Equipe</h3><hr>
 			<div class="row listrecent"> 
 				{% for pessoa in page.equipe %}
 					{% assign author = site.data.authors[pessoa] %}
 					{% include authorbox.html %}					
 				{% endfor %}
 			</div>
-
-            
+            {% endif %}
 			<!-- Post Categories -->
 			<div class="after-post-tags">
 				<ul class="tags">

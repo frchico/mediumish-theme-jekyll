@@ -12,3 +12,12 @@
 @import
 	"syntax"
 ;
+p {
+	text-align: justify;
+}
+.card-text{
+	text-align: justify;
+}
+.maxthumb > .img-fluid{
+	max-height: 176.5px;
+}
