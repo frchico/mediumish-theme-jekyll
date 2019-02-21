@@ -16,14 +16,16 @@ slider:
   text_color: white
   shadow_color: black
   slides: 
+    - image: https://images.pexels.com/photos/92902/pexels-photo-92902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      url: https://www.google.com
+      slide_html: "<h3>La Passione 2/3</h3>Yes, my life is your dream."
     - image: /uploads/slider/image.jpg
       slide_html:
     - image: /uploads/slider/image1.jpg
       slide_html: "<h3>La Passione 1/2</h3>Shirley, do you own a Ferrari?"
     - image: /uploads/slider/image.jpg
-      slide_html: "<h3>La Passione 2/2</h3>Yes, my life is your dream."
-    - image: /uploads/slider/image1.jpg
-      slide_html:
+      slide_html: "Yes, my life is your dream."
+    
 ---
 <div class="header-container">
     <div class="container">

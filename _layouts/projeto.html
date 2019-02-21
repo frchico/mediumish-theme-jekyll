@@ -16,22 +16,23 @@ post_class: post-template
 				<!-- Post Title -->
 				<hr>
 				<h1 class="posttitle">{{ page.title }}</h1>
-			<!-- Post Date -->
-			<small>
-				<span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-				{% if page.last_modified_at %}
-				(Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-				{% endif %}
-			</small>
-		</div>
+				<!-- Post Date -->
+				<small>
+					<span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+					{% if page.last_modified_at %}
+					(Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+					{% endif %}
+				</small>
+			</div>
+		
 			<!-- Post Featured Image -->
 			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
-			<!-- End Featured Image -->
-			{% if page.slider %}
-				{% include slider.html height="50" unit="%" transition="slide" duration="7" %}
-			{% endif %}
+		
 			<!-- Post Content -->
-			<div class="article-post">
+			<div class="row">
+				{% include flexslider-posts.html %}
+			</div>
+			<div class="article-post">				
 				{{content}}
 			</div>
 
@@ -39,8 +40,7 @@ post_class: post-template
 			<div class="row listrecent"> 
 				{% for pessoa in page.equipe %}
 					{% assign author = site.data.authors[pessoa] %}
-					{% include authorbox.html %}
-					
+					{% include authorbox.html %}					
 				{% endfor %}
 			</div>
 

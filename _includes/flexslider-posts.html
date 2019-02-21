@@ -1,0 +1,23 @@
+{% comment %} 
+	Maiores informações em https://woocommerce.com/flexslider/
+{% endcomment %}
+{% if page.slider %}
+<div class="flexslider">
+	<ul class="slides">
+		{% for slider in page.slider.slides %}
+		<li>
+			{% if slider.url %} 
+			<a href="{% if slider.url contains "://" %}{{ slider.url }}{% else %}{{ slider.url | absolute_url }}{% endif %}">			
+				<img src="{% if slider.image contains "://" %}{{ slider.image }}{% else %}{{ slider.image | absolute_url }}{% endif %}">
+				{% if slider.slide_html %}<p class="flex-caption">{{ slider.slide_html }}</p>{% endif %}
+			</a>
+			{% else %}
+				<img src="{% if slider.image contains "://" %}{{ slider.image }}{% else %}{{ slider.image | absolute_url }}{% endif %}">
+				{% if slider.slide_html %}<p class="flex-caption">{{ slider.slide_html }}</p>{% endif %}
+			{% endif %}
+
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endif %}
