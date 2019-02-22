@@ -41,7 +41,7 @@ permalink: "/categories.html"
 <div class="row listrecent"> 
 		
 <!--Output the categories-->
-	{% assign allcarssorted = categories_array | sort: "name" %}
+	{% assign allcarssorted = categories_array | sort %}
 	{% for category in allcarssorted %}
 		<div class="section-title col-md-12 mt-4">
 			<h2 id="{{ category | downcase }}"> - <span class="text-capitalize">{{ category }}</span></h2>
