@@ -21,7 +21,48 @@ folbricio:
   #email: wowthemesnet@gmail.com
   # web: http://lattes.cnpq.br/6084297127090876
   # twitter: https://twitter.com/frchico
+  description: "Bolsista e aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+franciscochaves:
+  name: Francisco Chaves
+  display_name: Francisco Chaves
+  # gravatar: b1cc14991db7a456fcd761680bbc8f81
+  # email: wowthemesnet@gmail.com
+  # web: https://www.wowthemes.net
+  # twitter: https://twitter.com/wowthemesnet
+  description:  "Aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+rubensmatos:
+  name: Rubens Matos
+  display_name: Rubens Matos
+  # image: 
+  # email: 
+  # web: 
+  # twitter: 
+  description: "Professor no Instituto Federal de Sergipe(IFS)."
+vanilton:
+  name: Vanilton Filho
+  display_name: Vanilton Filho
+  # image: 
+  # email: 
+  # web: 
+  # twitter: 
+  description: "Bolsista e aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+anatan:
+  name: Anatan Souza
+  display_name: Anatan Souza
+  # image: 
+  # email: 
+  # web: 
+  # twitter: 
   description: "Aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+jean:
+  name: Jean Oliveira
+  display_name: Jean Oliveira
+  # image: 
+  # email: 
+  # web: 
+  # twitter: 
+  description: "Aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+
 john1:
   name: Johnasds
   display_name: Johngggg

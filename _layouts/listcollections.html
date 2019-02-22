@@ -4,21 +4,28 @@ show_explorer: false
 colecoes: 
 ---
 <div class="row listrecent"> 
-{% for colecao in page.colecoes %}
+{% for colecao in page.colecoes %}	
 	<div class="section-title col-md-12 mt-4">
 		<h2 id="{{ colecao | downcase }}">- <span class="text-capitalize">{{ colecao }}</span></h2>
 	</div>  
-	{% for item in site[colecao] %}
-		{% assign pages_list = site[colecao] %}
-		{% for post in pages_list %}
-			{% if post.title != null %}
-				{% if group == null or group == post.group %}
-					{% include postbox.html %}
-				{% endif %}
+	
+	{% for post in site[colecao] %}	
+		{% if post.title != null %}				
+			{% if group == null or group == post.group %}
+				{% include postbox.html %}
 			{% endif %}
-		{% endfor %}
-		{% assign pages_list = nil %}
-		{% assign group = nil %}	
+		{% endif %}
     {% endfor %}  
 {% endfor %}
 </div>
+
+
+<ul>
+		{% for author in site.collections[colecao] %}
+		  <li>
+			<h2>{{ author.title }}</h2>
+			<h3>{{ author.position }}</h3>
+			<p>{{ author.content | markdownify }}</p>
+		  </li>
+		{% endfor %}
+	  </ul>

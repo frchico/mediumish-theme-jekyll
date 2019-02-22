@@ -1,6 +1,41 @@
 
 <!-- Categories Jumbotron
 ================================================== -->
+
+
+<!-- create categories array-->
+{% assign categories_array = "" | split:"|" %}
+
+{% for c in site.collections %}
+	<!--Add each unique 'my_collection' category to the array-->
+	{% for post in c.docs %}
+		{% for category in post.categories %}
+			{% assign categories_array = categories_array | push: category | uniq %}
+		{% endfor %}
+	{% endfor %}
+{% endfor %}
+
+{% assign allcarssorted = categories_array | sort: "name" %}
+
+
+<div class="jumbotron fortags">
+		<div class="d-md-flex h-100">
+			<div class="col-md-4 transpdark align-self-center text-center h-100">
+				<div class="d-md-flex align-items-center justify-content-center h-100">
+					<h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+				</div>
+			</div>
+			<div class="col-md-8 p-5 align-self-center text-center">      
+				{% for category in allcarssorted %}
+					{% assign docs = site.documents | where:"categories", category %}
+					<a href="{{site.baseurl}}/categories#{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ docs.size }})</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	 
+
+{% comment %}
 <div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
@@ -23,4 +58,5 @@
 		</div>
 	</div>
 </div>
+{% endcomment %}
  

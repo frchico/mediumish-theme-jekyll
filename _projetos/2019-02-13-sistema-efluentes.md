@@ -2,11 +2,12 @@
 layout: projeto
 title:  "Sistema de Efluentes"
 author: frchico
+toc: false  
 equipe: 
   - frchico
   - carinassouza
   - folbricio
-  - sal1
+  - franciscochaves
 categories: [ Projetos, PIBITI ]
 image: /uploads/slider/agua-alvorecer-amanhecer-1144176.jpg # assets/images/11.jpg
 featured: false
@@ -36,27 +37,26 @@ slider1:
 	</div>
 </div>
 
-
 <div class="header-container">
     <div class="container">      
 		<div class="row">
 			<div class="col-sm-4">
-				<h1 class="text-center"> <i class="fas fa-pencil-alt"></i></h1>
-				<h3 class="text-center">Auxílio no processo de coleta de dados</h3>
-				<p>Informar para o responsável técnico da ETE quais são os parâmetros que deverão ser coletados. Desta forma, o sistema informará quais os dados mínimos (físico, químico ou biológicos) que a estação deverá monitorar.
-				</p>
+				<div class="text-center"><i class="fas fa-pencil-alt" style="font-size: 1.5em;"></i></div>
+				<h4 class="text-center">Auxílio no processo de coleta de dados</h4>
+				<p class="wrapfooter">Informar para o responsável técnico da ETE quais são os parâmetros que deverão ser coletados. Desta forma, o sistema informará quais os dados mínimos (físico, químico ou biológicos) que a estação deverá monitorar.</p>
 			</div>
 			<div class="col-sm-4" style="border-left-style: dotted">
-				<h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-				<h3 class="text-center">Suporte a múltiplas ETE</h3>
-				<p>O sistema está preparado para atender mais de uma estação de tratamento de eflentes. Possibilitando, assim, a personalização dos parametros que serão coletados em uma determinada estação de tratamento.</p>
+				<div class="text-center"><i class="fa fa-cogs"  style="font-size: 1.5em;" aria-hidden="true"></i></div>
+				<h4 class="text-center">Suporte a múltiplas ETE</h4>
+				<p class="wrapfooter">O sistema está preparado para atender mais de uma estação de tratamento de eflentes. Possibilitando, assim, a personalização dos parametros que serão coletados em uma determinada estação de tratamento.</p>
 			</div>
 			<div class="col-sm-4" style="border-left-style: dotted">
-				<h1 class="text-center"><i class="fas fa-chart-line" aria-hidden="true"></i></h1>
-				<h3 class="text-center">Relatórios de eficiência</h3>
-				<p>Ao fazer uso do sistema o operador poderá acompanhar a eficiência de uma estação de tratamento.
-					A comparação poderá realizada com os dados anteriores ou com outras estações de tratamento a qual ele é responsável.</p>
+				<div class="text-center"><i class="fas fa-chart-line" style="font-size: 1.5em;" aria-hidden="true"></i></div>
+				<h4 class="text-center">Relatórios de eficiência</h4>
+				<p class="wrapfooter">Ao fazer uso do sistema o operador poderá acompanhar a eficiência de uma estação de tratamento. A comparação poderá realizada com os dados anteriores ou com outras estações de tratamento a qual ele é responsável.</p>
 			</div>
 		</div>
+	<br>
+	Para saber mais visite o <a href="https://saneamentoambiental.github.io/ETEControll/">site oficial</a>
 	</div>
 </div>

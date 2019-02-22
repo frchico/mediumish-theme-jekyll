@@ -17,6 +17,9 @@ defaults:
     values:      
       show_explorer: true
       comments: false
+toc:   
+  min_level: 2 # default: 1
+  max_level: 5 # default: 6
 
 # Plugins
 plugins: 
@@ -26,6 +29,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-menus
+  - jekyll-toc
 collections:
   projetos:
     output: true

@@ -9,14 +9,14 @@
 			{% endif %}
         </div>
         <div class="card-body">
-            <h2 class="card-title">
+            <div class="card-title">
 				{% if author.web %}
 				<a _target="_blank" href="{% if author.web contains "://" %}{{ author.web }}{% else %}{{ author.web | absolute_url }}{% endif %}"> {{author.display_name }} </a>
 				{% else %}
 					{{author.display_name }}
 				{% endif %}
-			</h2>
-			<h4 class="card-text">{{ author.description  | strip_html | truncatewords:15 }}</h4>
+			</div>
+			<h4 class="card-text">{{ author.description  | strip_html | truncatewords:20 }}</h4>
         </div>
     </div>
 </div>

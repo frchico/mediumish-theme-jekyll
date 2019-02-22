@@ -19,5 +19,39 @@ p {
 	text-align: justify;
 }
 .maxthumb > .img-fluid{
-	max-height: 176.5px;
+	max-height: 176.5px;	
+	float:left;	
 }
+.radius{
+	margin-right:13px;
+	border-radius:100%;
+}
+/* TOC */
+.section-nav {
+	float: right;
+	width: 40%;
+	background: #eee;
+	font-size: 0.8em;
+	padding: 1em 2em;
+	margin: 0 0 0.5em 0.5em;
+  }
+  .section-nav ul {
+	padding: 0;
+  }
+  .section-nav li {
+	margin: 0 0 0.25em 0;
+  }
+  .section-nav a {
+	text-decoration: none;
+  }
+  .section-nav a:hover,
+  .section-nav a:active {
+	text-decoration: underline;
+  }
+  /* TOC */
+  table {
+	  width: 100%
+  }
+  table, th, td {
+	border: 1px solid black;
+  }
