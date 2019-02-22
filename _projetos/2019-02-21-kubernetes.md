@@ -1,0 +1,65 @@
+---
+layout: projeto
+title: Orquestração de contêineres/Kubernetes
+subtitle:  "Orquestração de contêineres em ambientes de alta disponibilidade e seus usos em cursos de computação"
+author: frchico
+toc: false  
+equipe: 
+  - frchico
+  - rubensmatos
+  - franciscochaves
+  - vanilton
+  - anatan
+  - jean
+categories: [ Projetos, PIBIC ]
+image: /uploads/slider/kubernetes.jpg # assets/images/11.jpg
+featured: false
+hidden: false
+excerpt: O projeto visa contribuir com um dos grades desafios em pesquisa de SI (de 2016 à 2026), mapeados pelos pesquisadores em SI, através da exploração do desafio que envolve "Complexidade de Sistemas de Informação".
+
+excerpt_separator: <!--more-->
+slider1:
+  text_color: white
+  shadow_color: black
+  slides: 
+    - image: https://images.pexels.com/photos/92902/pexels-photo-92902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      url: https://www.google.com
+      slide_html: "<h3>La Passione 2/3</h3>Yes, my life is your dream."
+    - image: /uploads/slider/image.jpg
+      slide_html:
+    - image: /uploads/slider/image1.jpg
+      slide_html: "<h3>La Passione 1/2</h3>Shirley, do you own a Ferrari?"
+    - image: /uploads/slider/image.jpg
+      slide_html: "Yes, my life is your dream."    
+---
+
+## Sobre o projeto
+
+O projeto visa contribuir com um dos grades desafios em pesquisa de SI para o período de 2016 à 2026, mapeados pelos pesquisadores em SI, através da exploração do desafio que envolve "Complexidade de Sistemas de Informação"(BOSCARIOLI; ARAÚJO; MACIEL, 2017), mais precisamente no tocante as perspectivas na adoção da computação em nuvem no cenário brasileiro.
+
+Além disso irá contribuir na formação dos alunos do curso de computação para trabalharem com tecnologias em nuvem (cloud) e orquestração de contêineres em ambientes de alta disponibilidade com vistas as demandas do mercado nos próximos anos (CARNEIRO; PAULA, 2017).
+
+Por fim, o presente trabalho ajudará a comunidade regional e acadêmica a superar os desafios da computação em nuvem proporcionando um modelo de ambiente de alta disponibilidade para ser executado em laboratórios de informática, de cursos de computação, que faz uso da orquestração da execução de softwares e serviços em contêineres.
+
+## Objetivo Geral
+
+Elaborar um modelo de ambiente de alta disponibilidade para ser utilizado durante as aulas teóricas e práticas do curso de sistemas de informação através da orquestração da execução de softwares/serviços em contêineres
+
+### Objetivos Específicos
+Para atender o objetivo proposto do trabalho definidos os seguintes objetivos específicos:
+
+- Mapear  ambientes/ferramentas  que  proporcionam  alta  disponibilidade  de aplicações utilizadas em sistemas computacionais;
+- Levantamento de ambientes que proporcionem a orquestração de serviços;
+- Mapear o conhecimento do corpo docente e discente do curso a respeito dos conceitos de alta disponibilidade e de orquestração de softwares e/ou serviços;
+- Identificar disciplinas pertencentes ao curso de sistemas de informação, do Campus Lagarto, que permitem fazer uso da plataforma de virtualização em contêineres de forma distribuída através da orquestração;
+- Elaborar manual básico sobre a construção e a configuração de um ambiente que promova alta disponibilidade através da orquestração da execução de softwares/serviços em contêineres.
+  
+## Resultados esperados
+
+Espera-se que este projeto contribua ofertando um modelo de ambiente de alta disponibilidade para ser utilizado durante as aulas teóricas e práticas do curso de sistemas de informação através da orquestração da execução de softwares/serviços em contêineres.
+
+Este projeto também favorecerá a distribuição e execução dos softwares criados pelos alunos do curso de sistemas de informação do Instituto Federal de Sergipe - Campus Lagarto, principalmente aqueles que foram elaborados com vistas ao cumprimento das atividades propostas pelas disciplinas mais avançadas, como o Trabalho de Conclusão de Curso (TCC), e que necessitam de um ambiente com grande capacidade computacional.
+
+Além disso, contribuirá com a comunidade de pesquisa de SI na resolução do desafio proposto por Carneiro e Paula (2017), ao permitir que futuros trabalhadores na área de tecnologia de informação (alunos do IFS) possam ter uma visão de como funciona um ambiente de alta disponibilidade desde o início da sua formação.
+
+Por fim, este projeto irá contribuir significativamente para uma formação de maior qualidade dos alunos envolvidos no projeto, que devem estar matriculados no curso de sistemas de informação, por apresentar e trabalhar com conteúdos que não estão elencados no PPC.
