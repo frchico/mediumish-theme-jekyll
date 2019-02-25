@@ -46,7 +46,7 @@ permalink: "/categories.html"
 		<div class="section-title col-md-12 mt-4">
 			<h2 id="{{ category | downcase }}"> - <span class="text-capitalize">{{ category }}</span></h2>
 		</div> 
-		{% assign docs = site.documents | where:"categories", category %}
+		{% assign docs = site.documents | where:"categories", category | sort: "title" %}
 		{% for post in  docs %}
 			{% include postbox.html %}
 		{% endfor %}
