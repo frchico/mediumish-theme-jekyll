@@ -7,6 +7,7 @@ toc: false
 equipe: 
   - frchico
   - rubensmatos
+  - alfredovieira
   - franciscochaves
   - vanilton
   - anatan
