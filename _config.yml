@@ -33,6 +33,7 @@ plugins:
 collections:
   projetos:
     output: true
+    permalink: '/:collection/:path/'
     tags:
       - projeto pesquisa
     categories: 
