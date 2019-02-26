@@ -5,8 +5,8 @@ archive: false
 showPaginate: false
 toc: false
 post_class: post-template
+authors: []
 ---
-{% include breadcrumbs.html %}
 <div class="container">
 	<div class="row">
 		<!-- Post Share -->
@@ -48,8 +48,7 @@ post_class: post-template
 				<hr><h2>Equipe</h2><hr>
 				<div class="row listrecent"> 
 					{% for pessoa in page.equipe %}
-						{% assign author = site.data.authors[pessoa] %}
-						{% include authorbox.html %}					
+						{% include authorbox.html %}
 					{% endfor %}
 				</div>
 			</div>
@@ -87,8 +86,6 @@ post_class: post-template
 </div>
 <!-- End Article
 ================================================== -->
-
-  
 
 <!-- Begin Comments
 ================================================== -->

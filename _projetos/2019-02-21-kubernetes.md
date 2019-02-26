@@ -3,7 +3,16 @@ layout: projeto
 title: Orquestração de contêineres/Kubernetes
 subtitle:  "Orquestração de contêineres em ambientes de alta disponibilidade e seus usos em cursos de computação"
 author: frchico
-toc: false  
+toc: false 
+authors:
+  vanilton:
+    name: "Vanilton"
+    display_name: "Vanilton"
+    description: "Voluntário e aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."
+  vanilton1:
+    name: "Vanilton"
+    display_name: "Vanilton"
+    description: "Voluntário e aluno do curso de sistemas de informação no Instituto Federal de Sergipe(IFS), Campus Lagarto."	
 equipe: 
   - frchico
   - rubensmatos
@@ -11,7 +20,7 @@ equipe:
   - franciscochaves
   - vanilton
   - anatan
-  - jean
+  - jean 
 categories: [ Projetos, PIBIC ]
 image: /uploads/slider/kubernetes.jpg # assets/images/11.jpg
 featured: false
@@ -33,7 +42,6 @@ slider1:
     - image: /uploads/slider/image.jpg
       slide_html: "Yes, my life is your dream."    
 ---
-
 ## Sobre o projeto
 
 O projeto visa contribuir com um dos grades desafios em pesquisa de SI para o período de 2016 à 2026, mapeados pelos pesquisadores em SI, através da exploração do desafio que envolve "Complexidade de Sistemas de Informação"(BOSCARIOLI; ARAÚJO; MACIEL, 2017), mais precisamente no tocante as perspectivas na adoção da computação em nuvem no cenário brasileiro.

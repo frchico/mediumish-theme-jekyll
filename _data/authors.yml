@@ -9,10 +9,8 @@ frchico:
 carinassouza:
   name: Carina Souza
   display_name: Carina Souza
-  image: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4753165P5
-  #email: wowthemesnet@gmail.com
-  web: http://lattes.cnpq.br/6084297127090876
-  # twitter: https://twitter.com/frchico
+  image: http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4753165P5  
+  web: http://lattes.cnpq.br/6084297127090876  
   description: "Professora no Instituto Federal de Sergipe(IFS)."
 folbricio:
   name: Fabricio
