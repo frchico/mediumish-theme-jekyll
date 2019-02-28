@@ -14,7 +14,7 @@ permalink: /:title/
 defaults:
   - scope:
       path: ""
-    values:      
+    values:
       show_explorer: true
       comments: false
 toc:   

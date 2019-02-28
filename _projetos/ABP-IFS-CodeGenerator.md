@@ -17,7 +17,7 @@ excerpt_separator: <!--more-->
 
 # Sobre o CodeGenerator aka ABP IFS CodeGenerator
 
-Gerador de código para o [AspNetBoilerPlate](http://aspnetboilerplate.com) v.3.9.0 desenvolvido em conjunto com o [projeto]({{ site.baseurl }}{% link _projetos/2019-02-13-sistema-efluentes.md %}) de estação de tratamento de efluentes para otimizar o processo da construção do software.
+Gerador de código para o [AspNetBoilerPlate](http://aspnetboilerplate.com) v.3.9.0 desenvolvido em conjunto com o [projeto]({{ site.baseurl }}{% link _projetos/sistema-efluentes.md %}) de estação de tratamento de efluentes para otimizar o processo da construção do software.
 
 Esta versão é um *Fork* do [CodeGenerator de HisKingdom](https://github.com/HisKingdom/CodeGenerator)  e trabalha com a versão gratuita do AspNetBoilerPlate para auxiliar na construção telas não modais para visualização e edição de dados.
 
