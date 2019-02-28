@@ -12,10 +12,10 @@ menus: headera
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
-    {% for post in site.posts %}
-        {% if post.featured == true %}
-            {% include featuredbox.html %}
-        {% endif %}
+	{% assign posts = site.posts  | where: "hidden", false %} 
+	{% assign posts = posts | where: "featured", true %}
+    {% for post in posts limit: 2 %}
+		{% include featuredbox.html %}
 	{% endfor %}
     </div>
 </section>
@@ -25,10 +25,13 @@ menus: headera
 		<div class="section-title">
 			<h2><span>Projetos em Destaque</span></h2>
 		</div>
-		<div class="row">
-		{% for post in site.projetos %}
+		<div class="row listrecent">
+		
+		{% assign projetos = site.projetos | where: "hidden", false %}
+		{% assign projetos = projetos | where: "featured", true %}
+		{% for post in projetos limit: 3 %}
 			{% if post.featured == true %}
-				{% include featuredbox.html %}
+				{% include postbox.html %}
 			{% endif %}
 		{% endfor %}
 		</div>
@@ -42,8 +45,11 @@ menus: headera
         <h2><span>All Stories</span></h2>
     </div>
     <div class="row listrecent">
-        {% for post in paginator.posts %}
-               {% include postbox.html %}
+		{% assign posts = paginator.posts %}
+		{% for post in posts %}
+			   {% include postbox.html %}
+			   {% if post.hidden == false %}
+			{% endif %}
         {% endfor %}
     </div>
 </section>
