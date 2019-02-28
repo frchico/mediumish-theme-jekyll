@@ -22,6 +22,7 @@ equipe:
   - anatan
   - jean 
 categories: [ Projetos, PIBIC ]
+tags: Projetos PIBIC "Computação em nuvem"
 image: /uploads/slider/kubernetes.jpg # assets/images/11.jpg
 featured: false
 hidden: false

@@ -21,6 +21,14 @@ toc:
   min_level: 2 # default: 1
   max_level: 5 # default: 6
 
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+tag_page_data:
+  sitemap: false
+tag_permalink_style: pretty
+
 # Plugins
 plugins: 
   - jekyll-paginate
@@ -30,6 +38,8 @@ plugins:
   - jekyll-archives
   - jekyll-menus
   - jekyll-toc
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 collections:
   projetos:
     output: true

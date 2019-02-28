@@ -19,3 +19,5 @@ group :jekyll_plugins do
 	gem 'jekyll-menus'	
 end
 gem 'jekyll-toc'
+gem 'jekyll-tagging'
+gem 'jekyll-tagging-related_posts'

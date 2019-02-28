@@ -6,6 +6,7 @@ author: frchico
 toc: false  
 equipe: 
   - frchico
+tags: Projetos Latex Opensource
 categories: [ Projetos, Latex, Opensource ]
 image: /uploads/slider/latex.jpg # assets/images/11.jpg
 featured: true

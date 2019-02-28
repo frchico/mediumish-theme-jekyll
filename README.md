@@ -17,6 +17,11 @@ Nesta versão foram adicionadas as seguintes features:
 
 [Live Demo](https://frchico.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Features](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#features) &nbsp; |  &nbsp; [Documentation](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#usingmediumish)
 
+### TO-DO
+
+- [ ] Verificar a aceitação para o plugin de paginação [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2)  
+  - [ ] Adicionar a opção de `AutoPages`
+
 ### Agradecimentos
 
 - Site com images

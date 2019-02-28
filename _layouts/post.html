@@ -71,19 +71,32 @@ post_class: post-template
 				</ul>
 			</div>
 			<!-- End Categories -->
-            
-            <!-- Prev/Next -->
-            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-            {% if page.previous.url %}
-            <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo; {{page.previous.title}}</a>
-            {% endif %}
-            {% if page.next.url %}
-            <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo; </a>
-            {% endif %}
-            <div class="clearfix"></div>
-            </div>
-            <!-- End Categories -->
+			{% if site.related_posts.size >= 1 %}
+				<section class="related-posts">
+					<div class="section-title">
+						<h2><span>Itens relacionados</span></h2>
+					</div>
+					<div class="row listrecent">
+						{% assign posts = site.related_posts %}
+						{% for post in posts limit: 5 %}
+							{% include postbox.html %}
+						{% endfor %}
+					</div>
+				</section>
+			{% endif %}
 
+			{% if page.showPrevNext %}
+				<!-- Prev/Next -->
+				<div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+				{% if page.previous.url %}
+				<a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo; {{page.previous.title}}</a>
+				{% endif %}
+				{% if page.next.url %}
+				<a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo; </a>
+				{% endif %}
+				<div class="clearfix"></div>
+				</div>
+			{% endif %}
 		</div>
 		<!-- End Post -->
 

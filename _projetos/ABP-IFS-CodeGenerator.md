@@ -8,6 +8,7 @@ toc: false
 equipe: 
   - frchico
 categories: [ Projetos, ABP, AspNetBoilerPlate, C#, Opensource ]
+tags: Projetos ABP AspNetBoilerPlate C# Opensource
 image: /uploads/slider/codigo.jpg # assets/images/11.jpg
 featured: true
 hidden: false

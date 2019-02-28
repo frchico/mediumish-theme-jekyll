@@ -8,6 +8,8 @@ equipe:
   - carinassouza
   - folbricio
   - franciscochaves
+
+tags: Projetos PIBITI
 categories: [ Projetos, PIBITI ]
 image: /uploads/slider/agua-alvorecer-amanhecer-1144176.jpg # assets/images/11.jpg
 featured: false

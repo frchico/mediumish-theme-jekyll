@@ -9,6 +9,7 @@ equipe:
   - rubensmatos
   - vanilton
 categories: [ Projetos, PIBIC, Cnpq ]
+tags: Projetos PIBIC Cnpq "Computação em nuvem"
 image: /uploads/slider/docker.jpg # assets/images/11.jpg
 featured: false
 hidden: false
