@@ -14,8 +14,7 @@ post_class: post-template
 		<div class="col-md-2 pl-0">            
            {% include share.html %}  
 		</div>
-		
-
+	
 		<!-- Post -->        
         {% assign author = site.data.authors[page.author] %}
         
@@ -23,7 +22,7 @@ post_class: post-template
 			<div class="mainheading">
 
                 <!-- Author Box -->
-                {% if page.author %}				
+                {% if author %}				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
 						<img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
@@ -32,23 +31,18 @@ post_class: post-template
 						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
 						<span class="author-description">{{ author.description }}</span>						
 					</div>
-				</div>				
+				</div>
                 {% endif %}
-                
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1> 
-                
 			</div>
-
 			<!-- Post Featured Image -->
 			{% if page.image %}<img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
-
 			<!-- Post Content -->
 			<div class="article-post">
 				{{content}}
 			</div>
-
             <!-- Post Date -->
             <p>
             <small>
@@ -58,7 +52,6 @@ post_class: post-template
                 {% endif %}
                 </small>
             </p>
-            
 			<!-- Post Categories -->
 			<div class="after-post-tags">
 				<ul class="tags">

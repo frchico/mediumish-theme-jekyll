@@ -16,8 +16,9 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
 	gem 'jekyll-archives'
-	gem 'jekyll-menus'	
+	gem 'jekyll-menus'
 end
 gem 'jekyll-toc'
 gem 'jekyll-tagging'
 gem 'jekyll-tagging-related_posts'
+gem 'jekyll-assets'

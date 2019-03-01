@@ -4,3 +4,5 @@ _site
 .sass-cache
 
 Gemfile.lock
+/.jekyll-cache/assets/sprockets/v3.0/0_/*.cache
+/.jekyll-cache

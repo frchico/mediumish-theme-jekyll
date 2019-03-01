@@ -21,6 +21,8 @@ Nesta versão foram adicionadas as seguintes features:
 
 - [ ] Verificar a aceitação para o plugin de paginação [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2)  
   - [ ] Adicionar a opção de `AutoPages`
+- [ ] Verificar o plugin jekyll-auto-image
+- [ ] Corrigir a url das tags para incluir o {{ site.baseurl }}
 
 ### Agradecimentos
 
