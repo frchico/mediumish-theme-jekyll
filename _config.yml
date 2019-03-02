@@ -48,6 +48,7 @@ plugins:
   - jekyll/tagging
   - jekyll-tagging-related_posts
   - jekyll-minifier
+  - jekyll-gzip
 collections:
   projetos:
     output: true

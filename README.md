@@ -24,6 +24,10 @@ Nesta versão foram adicionadas as seguintes features:
 - [ ] Verificar o plugin jekyll-auto-image
 - [ ] Adicionar suporte ao [jekyll-paginate-content](https://github.com/ibrado/jekyll-paginate-content)
 - [ ] Corrigir a url das tags para incluir o {{ site.baseurl }}
+- [ ] Testar plugins de compactação do site como o:
+  - [ ] [jekyll-zopfli](https://github.com/philnash/jekyll-zopfli)
+- [ ] Verificar a necessidade de integração com o Latex
+  - [ ] [Jekyll-Quicklatex](https://github.com/DreamAndDead/jekyll-quicklatex)
 
 ### Agradecimentos
 
