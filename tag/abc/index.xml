@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>ABC</title>
- <link href="/mediumish-theme-jekyll/tag/abc/index.xml" rel="self"/>
- <link href="/mediumish-theme-jekyll/tag/ABC.html"/>
- <updated>2019-03-02T01:49:01+00:00</updated>
- <id>/mediumish-theme-jekyll/tag/ABC.html</id>
+ <link href="/tag/abc/index.xml" rel="self"/>
+ <link href="/tag/ABC.html"/>
+ <updated>2019-03-03T01:48:25+00:00</updated>
+ <id>/tag/ABC.html</id>
  
  
  <entry>
    <title>Options for creating a new site with Jekyll</title>
-   <link href="/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll/"/>
+   <link href="/options-for-creating-new-site-with-jekyll/"/>
    <updated>2018-01-12T00:00:00+00:00</updated>
-   <id>/mediumish-theme-jekyll/options-for-creating-new-site-with-jekyll</id>
+   <id>/options-for-creating-new-site-with-jekyll</id>
    <content type="html">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll new &amp;lt;PATH&amp;gt;&lt;/code&gt; installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called &lt;code class=&quot;highlighter-rouge&quot;&gt;myblog&lt;/code&gt;. Here are some additional details:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -26,9 +26,9 @@
  
  <entry>
    <title>Never stopped worrying or loving the bomb</title>
-   <link href="/mediumish-theme-jekyll/never-stopped-worrying-never-loved-bomb/"/>
+   <link href="/never-stopped-worrying-never-loved-bomb/"/>
    <updated>2018-01-12T00:00:00+00:00</updated>
-   <id>/mediumish-theme-jekyll/never-stopped-worrying-never-loved-bomb</id>
+   <id>/never-stopped-worrying-never-loved-bomb</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;I’ve been through fire and water, I tell you! From my earliest pebblehood the wildest things you could imagine have been happening to this world of ours, and I have been right in the midst of them.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -42,9 +42,9 @@ Hallam Hawksworth was the pen-name of teacher Francis Blake Atkinson. He was mar
  
  <entry>
    <title>External Featured Image</title>
-   <link href="/mediumish-theme-jekyll/is-intelligence-enough/"/>
+   <link href="/is-intelligence-enough/"/>
    <updated>2018-01-12T00:00:00+00:00</updated>
-   <id>/mediumish-theme-jekyll/is-intelligence-enough</id>
+   <id>/is-intelligence-enough</id>
    <content type="html">&lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
 
 &lt;blockquote&gt;

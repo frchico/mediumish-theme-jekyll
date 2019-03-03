@@ -3,15 +3,15 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/mediumish-theme-jekyll/</link>
-    <atom:link href="/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Mar 2019 01:49:01 +0000</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 01:49:01 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 03 Mar 2019 01:48:25 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 01:48:25 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Ferramentas para auxíliar a pesquisa científica</title>
-        <description>&lt;p&gt;Após iniciar a pesquisa envolvendo &lt;a href=&quot;/mediumish-theme-jekyll/projetos/kubernetes/&quot;&gt;orquestração de servicos&lt;/a&gt;, tive a necessidade de realizar uma revisão sistemática.&lt;/p&gt;
+        <description>&lt;p&gt;Após iniciar a pesquisa envolvendo &lt;a href=&quot;/projetos/kubernetes/&quot;&gt;orquestração de servicos&lt;/a&gt;, tive a necessidade de realizar uma revisão sistemática.&lt;/p&gt;
 
 &lt;p&gt;Para auxiliar a revisão pensei em utilizar a ferramenta &lt;a href=&quot;http://lapes.dc.ufscar.br/tools/start_tool&quot;&gt;StArt&lt;/a&gt;, desenvolvida pela UFSCAR, porém ela limita seu uso em ambiente Windows e com um único pesquisador.&lt;/p&gt;
 
@@ -52,8 +52,8 @@
 &lt;p&gt;Em minha busca não encontrei nenhuma ferramenta gratuita com os recursos que a &lt;a href=&quot;http://lapes.dc.ufscar.br/tools/start_tool&quot;&gt;StArt&lt;/a&gt; possui para a construção de revisões sistemáticas e que oferecesse um pequeno aprendizado para os meus alunos (de nível médio técnico que estão iniciando nos projetos de pesquisa.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/ferramentas-auxilio-pesquisa/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/ferramentas-auxilio-pesquisa/</guid>
+        <link>/ferramentas-auxilio-pesquisa/</link>
+        <guid isPermaLink="true">/ferramentas-auxilio-pesquisa/</guid>
         
         
         <category>Pesquisa</category>
@@ -89,7 +89,7 @@
 
 &lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mediumish-theme-jekyll/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
 
@@ -104,8 +104,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/powerful-things-markdown-editor/</guid>
+        <link>/powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">/powerful-things-markdown-editor/</guid>
         
         
         <category>Jekyll</category>
@@ -129,8 +129,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/first-mass-produced/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/first-mass-produced/</guid>
+        <link>/first-mass-produced/</link>
+        <guid isPermaLink="true">/first-mass-produced/</guid>
         
         
         <category>Jekyll</category>
@@ -168,7 +168,7 @@
 
 &lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/mediumish-theme-jekyll/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
 
@@ -183,8 +183,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/education/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/education/</guid>
+        <link>/education/</link>
+        <guid isPermaLink="true">/education/</guid>
         
         
         <category>Jekyll</category>
@@ -208,8 +208,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/acumulated-experience/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/acumulated-experience/</guid>
+        <link>/acumulated-experience/</link>
+        <guid isPermaLink="true">/acumulated-experience/</guid>
         
         
         <category>Jekyll</category>
@@ -231,8 +231,8 @@
 &lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/about-bundler/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/about-bundler/</guid>
+        <link>/about-bundler/</link>
+        <guid isPermaLink="true">/about-bundler/</guid>
         
         
         <category>Jekyll</category>
@@ -246,8 +246,8 @@
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/we-all-wait-for-summer/</guid>
+        <link>/we-all-wait-for-summer/</link>
+        <guid isPermaLink="true">/we-all-wait-for-summer/</guid>
         
         
         <category>Jekyll</category>
@@ -272,8 +272,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/tree-of-codes/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/tree-of-codes/</guid>
+        <link>/tree-of-codes/</link>
+        <guid isPermaLink="true">/tree-of-codes/</guid>
         
         
         <category>Jekyll</category>
@@ -297,8 +297,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/red-riding/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/red-riding/</guid>
+        <link>/red-riding/</link>
+        <guid isPermaLink="true">/red-riding/</guid>
         
         
         <category>Jekyll</category>
@@ -325,8 +325,8 @@
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/mediumish-theme-jekyll/press-and-education/</link>
-        <guid isPermaLink="true">/mediumish-theme-jekyll/press-and-education/</guid>
+        <link>/press-and-education/</link>
+        <guid isPermaLink="true">/press-and-education/</guid>
         
         
         <category>Jekyll</category>
