@@ -23,4 +23,5 @@ group :jekyll_plugins do
 	gem 'jekyll-tagging-related_posts'
 	gem 'jekyll-minifier'
 	gem 'jekyll-gzip'
+	# gem 'jekyll-admin'
 end

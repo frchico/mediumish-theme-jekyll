@@ -18,16 +18,18 @@ Nesta versão foram adicionadas as seguintes features:
 [Live Demo](https://frchico.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Features](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#features) &nbsp; |  &nbsp; [Documentation](https://wowthemesnet.github.io/mediumish-theme-jekyll/about#usingmediumish)
 
 ### TO-DO
-
-- [ ] Verificar a aceitação para o plugin de paginação [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2)  
-  - [ ] Adicionar a opção de `AutoPages`?!
-- [ ] Verificar o plugin jekyll-auto-image
-- [ ] Adicionar suporte ao [jekyll-paginate-content](https://github.com/ibrado/jekyll-paginate-content)
-- [ ] Corrigir a url das tags para incluir o {{ site.baseurl }}
-- [ ] Testar plugins de compactação do site como o:
-  - [ ] [jekyll-zopfli](https://github.com/philnash/jekyll-zopfli)
-- [ ] Verificar a necessidade de integração com o Latex
-  - [ ] [Jekyll-Quicklatex](https://github.com/DreamAndDead/jekyll-quicklatex)
+  - [ ] Plugins
+    - [ ] Verificar a aceitação para o plugin de paginação [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2)  
+      - [ ] Adicionar a opção de `AutoPages`?!
+    - [ ] Verificar o plugin jekyll-auto-image
+    - [ ] Adicionar suporte ao [jekyll-paginate-content](https://github.com/ibrado/jekyll-paginate-content)
+    - [ ] Testar plugins de compactação do site como o:
+      - [ ] [jekyll-zopfli](https://github.com/philnash/jekyll-zopfli)
+    - [ ] Verificar a necessidade de integração com o Latex
+      - [ ] [Jekyll-Quicklatex](https://github.com/DreamAndDead/jekyll-quicklatex)
+- [ ] Tags
+  - [ ] Corrigir a url das tags para incluir o {{ site.baseurl }}
+  - [ ] Ajustar layout
 
 ### Agradecimentos
 
