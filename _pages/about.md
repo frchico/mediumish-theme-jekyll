@@ -1,90 +1,73 @@
 ---
-layout: page
+layout: post
 title: Sobre
+# author: frchico
+categories: [ ]
+tags: ""
 permalink: /about
 comments: false
 menus: header
+
 ---
+{% assign author = site.data.authors.frchico %}
+---
+# Quem sou
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">    
+{{ author.description }}
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+## Finalidade do site
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+O propósito deste site é dar visibilidade aos projetos que venho desenvolvendo. Alguns deles são frutos da curiosidade, de estudo, de projetos de pesquisa, por perceber a repetição de trabalho ou quando encontro uma forma de fazer que me proporcione alguma agilidade.
 
-<h4 id="features" class="mt-4">Features</h4>
+## Ferramentas utilizadas
 
-<ul>
-<li>Built for Jekyll</li>
+Construído com Jekyll, teve como base o template Mediumish template e nele foram feitas algumas modificações como:
 
-<li>Compatible with Github pages</li>
+- *Collections* para os projetos pessoais com a possibilidade da exibição da equipe através de arquivo de dados;
+- Ajuste da região explorer para exibir as categorias das *collections*
+- Inclusão das *collections* na pesquisa
+- Alguns plugins para renderização do menu de forma automática
+- Suporte ao [travis-ci](https://travis-ci.com/) para *build* e *deploy* no *branch git-pages*
+- Exibição de imagens usando o site gravatar
+- Ajuste na obtenção dos dados dos autores para ser recuperado de um arquivo de dados ao invés de um arquivo de configuração;
+- Inclusão de *templates* de tags;
+- Inclusão de *plugins*
+  
+E mantidas as seguintes funcionalidades:
+- Featured Posts
+- Index Pagination
+- SEO
+- Feed
+- Sitemap
+- Post Share
+- Post Categories
+- Prev/Next Link
+- Category Archives
+- Jumbotron Categories
+- Integrations:
+  - Disqus Comments
+  - Google Analaytics
+  - Mailchimp Integration
+- Design Features:
+  - Bootstrap v4.x
+  - Font Awesome
+  - Masonry
+- Layouts:
+  - Default
+  - Post
+  - Page
+  - Archive
+  - Categories
 
-<li>Featured Posts</li>
+Devido o volume de alterações e de plugins que o site está utilizado (ou que necessite utilizar), fiz a integração da compilação e implantação utilizando o [Travis-CI](https://travis-ci.com).
 
-<li>Index Pagination</li>
+Hoje o build está como [![Build Status](https://travis-ci.com/frchico/mediumish-theme-jekyll.svg?branch=desenv)](https://travis-ci.com/frchico/mediumish-theme-jekyll) e leva cerca de 1 min 50 seg para que uma nova versão esteja disponível.
 
-<li>SEO</li>
+## Como contribuir
 
-<li>Feed</li>
+Caso queira esudar o código, contribuir ou corrigir algo no site, faça seu pull request [aqui](https://github.com/frchico/mediumish-theme-jekyll/tree/desenv).
 
-<li>Sitemap</li>
-
-<li>Post Share</li>
-
-<li>Post Categories</li>
-
-<li>Prev/Next Link</li>
-
-<li>Category Archives (Compatible with Github pages)</li>
-
-<li>Jumbotron Categories</li>
-
-<li>Integrations:
-
-
-<ul>
-<li>Disqus Comments</li>
-
-<li>Google Analaytics</li>
-
-<li>Mailchimp Integration</li></ul>
-</li>
-
-<li>Design Features:
-
-
-<ul>
-<li>Bootstrap v4.x</li>
-
-<li>Font Awesome</li>
-
-<li>Masonry</li></ul>
-</li>
-
-<li>Layouts:
-
-
-<ul>
-<li>Default</li>
-
-<li>Post</li>
-
-<li>Page</li>
-
-<li>Archive</li>
-
-<li>Categories (for 100% compatibility with Github pages)</li>
-
-</ul>
-</li>
-</ul>
-
-<h4 id="howtouse">What's Jekyll</h4>
-
-<p>If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with <a target="_blank" href="https://jekyllrb.com/docs/installation/">Jekyll's Docs</a>. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:</p>
-
-<h4 id="usingmediumish">How to use "Mediumish" theme</h4>
+## Como utilizar
 
 <ol>
 <li><a href="https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip">Download</a> or <code>git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git</code></li>
@@ -135,49 +118,3 @@ title: Mediumish Template for Jekyll
 comments: true
 ---
 </code></pre>
-
-
-<h4>Questions or bug reports?</h4>
-
-Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!
-
-</div>
-
-<div class="col-md-4">
-    
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<!-- Identify your business so that you can collect the payments. -->
-<input type="hidden" name="business" value="F8CU3MPC2LA72" />
-
-<!-- Identify the message of the kind contributor. -->
-<input type="hidden" name="contributor-message" value="Message to Sal" />
-<textarea class="w-100 d-block p-2 mb-4" type="text" name="contributor-message" placeholder="Your message to @Sal"></textarea>
-
-<!-- Specify a Donate button. -->
-<input type="hidden" name="cmd" value="_donations" />
-
-<!-- Specify details about the contribution -->
-<input type="hidden" name="item_name" value="Donation" />
-<input type="hidden" name="item_number" value="Donation" /> 
-<select name="amount">
-    <option value="5.00">$5.00</option>
-    <option value="10.00">$10.00</option>
-    <option value="25.00">$25.00</option>
-    <option value="50.00">$50.00</option>
-    <option value="100.00">$100.00</option>
-</select>
-<input type="hidden" name="currency_code" value="USD" />
-
-<br /><br />
-<!-- Display the payment button. -->
-<input type="image" name="submit" border="0" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online" />
-</form>
-</div>
-</div>
-</div>
