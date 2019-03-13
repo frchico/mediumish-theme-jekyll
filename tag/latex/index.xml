@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>latex</title>
+ <link href="/tag/latex/index.xml" rel="self"/>
+ <link href="/tag/latex.html"/>
+ <updated>2019-03-13T01:07:15+00:00</updated>
+ <id>/tag/latex.html</id>
+ 
+ 
+ <entry>
+   <title>Busca por alternativas para o Latex?</title>
+   <link href="/r-markdown/"/>
+   <updated>2019-03-12T00:00:00+00:00</updated>
+   <id>/r-markdown</id>
+   <content type="html">&lt;p&gt;Uma das minhas maiores dificuldades era fazer um conteúdo de um manual de instruções que fosse dinâmico (com vários layouts) e que também pudesse ser distribuído como livros.&lt;/p&gt;
+
+&lt;p&gt;Para atender a demanda que não era facilmente atendida pelo Latex, iniciei os estudos no &lt;em&gt;Markdown&lt;/em&gt; com &lt;em&gt;GitBook&lt;/em&gt; e acabei descobrindo, também, a &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. Até então tudo bem. Usando o Jekyll consegui aumentar a produtividade na publicação de textos e &lt;em&gt;helps&lt;/em&gt; de ferramentas que construía, mas a publicação de textos com a formatação que o Latex proporciona eu ainda não conseguia encontrar.&lt;/p&gt;
+
+&lt;p&gt;Outro ponto que incomoda é que em algumas editoras é necessário fazer o envio de documentos no formato &lt;em&gt;Word&lt;/em&gt;. E para que já trabalhou com Latex sabe o quanto é complicado fazer a conversão de Word para Latex para Word.&lt;/p&gt;
+
+&lt;p&gt;Em 2019 a inquietação voltou, pois um novo projeto de pesquisa foi aprovado e nele precisávamos construir um manual básico para os novos bolsistas/membros com grandes chances para publicação comocapítulos de livros. Ou seja, a busca de novas ferramentas foi iniciada e ao buscar uma forma de automatizar o processo de publicação que o GitBook &lt;em&gt;oferece&lt;/em&gt; me deparei com o &lt;a href=&quot;https://rmarkdown.rstudio.com/formats.html&quot;&gt;rmarkdown&lt;/a&gt; através do &lt;a href=&quot;https://bookdown.org/yihui/bookdown/&quot;&gt;livro&lt;/a&gt; de Yihui Xie.&lt;/p&gt;
+
+&lt;p&gt;Algumas coisas que me chamaram a atenção:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Generate printer-ready books and ebooks from R Markdown documents&lt;/li&gt;
+    &lt;li&gt;A markup language easier to learn than LaTeX, and to write elements such as section headers, lists, quotes, figures, tables, and citations&lt;/li&gt;
+    &lt;li&gt;Multiple choices of output formats: PDF, LaTeX, HTML, EPUB, and Word.&lt;/li&gt;
+    &lt;li&gt;Possibility of including dynamic graphics and interactive applications (HTML widgets and Shiny apps)&lt;/li&gt;
+    &lt;li&gt;Support for languages other than R, including C/C++, Python, and SQL, etc.&lt;/li&gt;
+    &lt;li&gt;LaTeX equations, theorems, and proofs work for all output formats&lt;/li&gt;
+    &lt;li&gt;Can be published to GitHub, bookdown.org, and any web servers&lt;/li&gt;
+    &lt;li&gt;Integrated with the RStudio IDE&lt;/li&gt;
+    &lt;li&gt;One-click publishing to https://bookdown.org&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/178485416&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
+	&lt;/iframe&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Vídeo que está disponível na página de introdução do &lt;a href=&quot;https://rmarkdown.rstudio.com/lesson-1.html&quot;&gt;R Markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Até o momento estou no processo de construção de ambiente e adaptação de materiais que já fiz para compreender o quanto ele é extensível, mas ao que pude observar é uma tendência que não tem mais volta. Será?!&lt;/p&gt;
+
+&lt;h2 id=&quot;saiba-mais&quot;&gt;Saiba mais&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/bookdown&quot;&gt;Authoring Books and Technical Documents with R Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookdown.org/yihui/rmarkdown/&quot;&gt;R Markdown: The Definitive Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jdav.is/2015/07/28/r-with-visual-studio-code/&quot;&gt;R with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/formats.html&quot;&gt;Formatos/templates disponíveis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/gallery.html&quot;&gt;Galeria de exemplos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/rticles&quot;&gt;Templates acadêmicos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+</feed>
+

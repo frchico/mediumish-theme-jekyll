@@ -5,9 +5,75 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Mar 2019 12:29:11 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Mar 2019 12:29:11 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2019 01:07:15 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2019 01:07:15 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Busca por alternativas para o Latex?</title>
+        <description>&lt;p&gt;Uma das minhas maiores dificuldades era fazer um conteúdo de um manual de instruções que fosse dinâmico (com vários layouts) e que também pudesse ser distribuído como livros.&lt;/p&gt;
+
+&lt;p&gt;Para atender a demanda que não era facilmente atendida pelo Latex, iniciei os estudos no &lt;em&gt;Markdown&lt;/em&gt; com &lt;em&gt;GitBook&lt;/em&gt; e acabei descobrindo, também, a &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. Até então tudo bem. Usando o Jekyll consegui aumentar a produtividade na publicação de textos e &lt;em&gt;helps&lt;/em&gt; de ferramentas que construía, mas a publicação de textos com a formatação que o Latex proporciona eu ainda não conseguia encontrar.&lt;/p&gt;
+
+&lt;p&gt;Outro ponto que incomoda é que em algumas editoras é necessário fazer o envio de documentos no formato &lt;em&gt;Word&lt;/em&gt;. E para que já trabalhou com Latex sabe o quanto é complicado fazer a conversão de Word para Latex para Word.&lt;/p&gt;
+
+&lt;p&gt;Em 2019 a inquietação voltou, pois um novo projeto de pesquisa foi aprovado e nele precisávamos construir um manual básico para os novos bolsistas/membros com grandes chances para publicação comocapítulos de livros. Ou seja, a busca de novas ferramentas foi iniciada e ao buscar uma forma de automatizar o processo de publicação que o GitBook &lt;em&gt;oferece&lt;/em&gt; me deparei com o &lt;a href=&quot;https://rmarkdown.rstudio.com/formats.html&quot;&gt;rmarkdown&lt;/a&gt; através do &lt;a href=&quot;https://bookdown.org/yihui/bookdown/&quot;&gt;livro&lt;/a&gt; de Yihui Xie.&lt;/p&gt;
+
+&lt;p&gt;Algumas coisas que me chamaram a atenção:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Generate printer-ready books and ebooks from R Markdown documents&lt;/li&gt;
+    &lt;li&gt;A markup language easier to learn than LaTeX, and to write elements such as section headers, lists, quotes, figures, tables, and citations&lt;/li&gt;
+    &lt;li&gt;Multiple choices of output formats: PDF, LaTeX, HTML, EPUB, and Word.&lt;/li&gt;
+    &lt;li&gt;Possibility of including dynamic graphics and interactive applications (HTML widgets and Shiny apps)&lt;/li&gt;
+    &lt;li&gt;Support for languages other than R, including C/C++, Python, and SQL, etc.&lt;/li&gt;
+    &lt;li&gt;LaTeX equations, theorems, and proofs work for all output formats&lt;/li&gt;
+    &lt;li&gt;Can be published to GitHub, bookdown.org, and any web servers&lt;/li&gt;
+    &lt;li&gt;Integrated with the RStudio IDE&lt;/li&gt;
+    &lt;li&gt;One-click publishing to https://bookdown.org&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+	&lt;iframe src=&quot;https://player.vimeo.com/video/178485416&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
+	&lt;/iframe&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;Vídeo que está disponível na página de introdução do &lt;a href=&quot;https://rmarkdown.rstudio.com/lesson-1.html&quot;&gt;R Markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Até o momento estou no processo de construção de ambiente e adaptação de materiais que já fiz para compreender o quanto ele é extensível, mas ao que pude observar é uma tendência que não tem mais volta. Será?!&lt;/p&gt;
+
+&lt;h2 id=&quot;saiba-mais&quot;&gt;Saiba mais&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/bookdown&quot;&gt;Authoring Books and Technical Documents with R Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookdown.org/yihui/rmarkdown/&quot;&gt;R Markdown: The Definitive Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jdav.is/2015/07/28/r-with-visual-studio-code/&quot;&gt;R with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/formats.html&quot;&gt;Formatos/templates disponíveis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/gallery.html&quot;&gt;Galeria de exemplos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/rticles&quot;&gt;Templates acadêmicos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+        <link>/r-markdown/</link>
+        <guid isPermaLink="true">/r-markdown/</guid>
+        
+        <category>latex</category>
+        
+        <category>markdown</category>
+        
+        <category>ferramentas</category>
+        
+        
+        <category>latex</category>
+        
+        <category>markdown</category>
+        
+        <category>ferramentas</category>
+        
+      </item>
     
       <item>
         <title>Ferramentas para auxíliar a pesquisa científica</title>
@@ -299,34 +365,6 @@
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
         <link>/red-riding/</link>
         <guid isPermaLink="true">/red-riding/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Press and education</title>
-        <description>&lt;p&gt;Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
-
-&lt;p&gt;Education must also train one for quick, &lt;strong&gt;resolute and effective thinking&lt;/strong&gt;. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
-
-&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
-
-&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/press-and-education/</link>
-        <guid isPermaLink="true">/press-and-education/</guid>
         
         
         <category>Jekyll</category>
