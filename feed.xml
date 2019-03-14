@@ -5,9 +5,149 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Mar 2019 01:07:15 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2019 01:07:15 +0000</lastBuildDate>
+    <pubDate>Thu, 14 Mar 2019 14:51:24 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Mar 2019 14:51:24 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Dicas de uso do R Markdown?</title>
+        <description>&lt;p&gt;Este post serve como registro de coisas legais que venho encontrando durante meus estudos na construção e adaptação de templates &lt;em&gt;Gitbook&lt;/em&gt; e  &lt;em&gt;Latex&lt;/em&gt; para R Markdown, utilizando &lt;em&gt;bookdown&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Algumas coisas são sobre R, outras são não. Vamos lá!&lt;/p&gt;
+
+&lt;h2 id=&quot;documentação&quot;&gt;Documentação&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.rforge.net/doc/packages/knitr/00Index.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sites-em-jekyll-com-r-markdown&quot;&gt;Sites em Jekyll com R Markdown&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/cabelotaina/vereadorescg-site&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;temas&quot;&gt;Temas&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/yixuan/prettydoc/&lt;/li&gt;
+  &lt;li&gt;https://statr.me/2016/08/creating-pretty-documents-with-the-prettydoc-package/&lt;/li&gt;
+  &lt;li&gt;https://github.com/juba/rmdformats&lt;/li&gt;
+  &lt;li&gt;https://github.com/rstudio/rticles/tree/master/inst/rmarkdown/templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;adicionando-componentes-visuais-na-tela&quot;&gt;Adicionando componentes visuais na tela&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://walkerke.github.io/2016/12/rmd-dropdowns/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;erro-ghostscript&quot;&gt;Erro Ghostscript&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://community.rstudio.com/t/new-problems-producing-pdf-from-rmarkdown/5850&lt;/li&gt;
+  &lt;li&gt;https://github.com/rstudio/rmarkdown/issues/1285&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;usando-um-arquivo-de-script&quot;&gt;Usando um arquivo de script&lt;/h2&gt;
+
+&lt;p&gt;Crie um arquivo R, adicione suas funções e importe nos Rmd através do comando &lt;code class=&quot;highlighter-rouge&quot;&gt;read_chunk('foo-bar.R')&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Fonte:  https://yihui.name/knitr/demo/externalization/&lt;/p&gt;
+
+&lt;h2 id=&quot;como-fazer-quebra-de-página-de-forma-genérica&quot;&gt;Como fazer quebra de página de forma genérica&lt;/h2&gt;
+
+&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;```&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;FALSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pagebreak&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knitr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_latex_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;\\newpage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&amp;lt;div style=&quot;page-break-before: always;&quot; /&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;curso&quot;&gt;Curso&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://leg.ufpr.br/~walmes/ensino/pesq-reprod/slides/10-rmarkdown.html&lt;/li&gt;
+  &lt;li&gt;http://www.botanicaamazonica.wiki.br/labotam/doku.php?id=bot89:precurso:rmarkdown:inicio&lt;/li&gt;
+  &lt;li&gt;https://arthurlustosa.github.io/maisumsitesobre//2017/07/primeira-postagem-windows.html&lt;/li&gt;
+  &lt;li&gt;https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;abnt&quot;&gt;ABNT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://leg.ufpr.br/~walmes/ensino/pesq-reprod/&lt;/li&gt;
+  &lt;li&gt;https://github.com/lhmet/hidrometbook&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;legenda-em-figuras&quot;&gt;Legenda em figuras&lt;/h2&gt;
+
+&lt;p&gt;-https://www.r-bloggers.com/fast-track-publishing-using-knitr-exporting-images-for-sharing-and-press-part-iii/&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://stackoverflow.com/questions/13848137/figure-captions-references-using-knitr-and-markdown-to-html&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quebrando-o-capítulo-em-mais-de-um-arquivo--incluir-arquivos&quot;&gt;Quebrando o capítulo em mais de um arquivo / Incluir arquivos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://stackoverflow.com/questions/25824795/how-to-combine-two-rmarkdown-rmd-files-into-a-single-output&lt;/li&gt;
+  &lt;li&gt;https://stackoverflow.com/questions/17593912/insert-portions-of-a-markdown-document-inside-another-markdown-document-using-kn&lt;/li&gt;
+  &lt;li&gt;https://yihui.name/knitr/demo/child/&lt;/li&gt;
+  &lt;li&gt;http://zevross.com/blog/2014/07/09/making-use-of-external-r-code-in-knitr-and-r-markdown/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;como-escrever-tesetcc&quot;&gt;Como escrever tese/TCC&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://rosannavanhespenresearch.wordpress.com/2016/03/30/writing-your-thesis-with-r-markdown-5-the-thesis-layout/&lt;/li&gt;
+  &lt;li&gt;https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/&lt;/li&gt;
+  &lt;li&gt;https://github.com/ismayc/thesisdown/blob/master/inst/rmarkdown/templates/thesis/skeleton/skeleton.Rmd&lt;/li&gt;
+  &lt;li&gt;https://github.com/rstudio/rticles/tree/master/inst/rmarkdown/templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;como-incluir-itens-tex&quot;&gt;Como incluir itens .Tex&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://tex.stackexchange.com/questions/171711/how-to-include-latex-package-in-r-markdown&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;união-do-jekyll-com-r-markdown&quot;&gt;União do Jekyll com R Markdown&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://brendanrocks.com/blogging-with-rmarkdown-knitr-jekyll/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;olhar-com-mais-calma-depois&quot;&gt;Olhar com mais calma depois&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://stackoverflow.com/questions/10966109/how-to-source-r-markdown-file-like-sourcemyfile-r&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;bibliotecas&quot;&gt;Bibliotecas&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/r-lib/here&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+        <link>/dicas-rmarkdown/</link>
+        <guid isPermaLink="true">/dicas-rmarkdown/</guid>
+        
+        <category>dicas</category>
+        
+        <category>rmarkdown</category>
+        
+        <category>ferramentas</category>
+        
+        
+        <category>dicas</category>
+        
+        <category>rmarkdown</category>
+        
+        <category>ferramentas</category>
+        
+      </item>
     
       <item>
         <title>Busca por alternativas para o Latex?</title>
@@ -53,6 +193,7 @@
   &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/formats.html&quot;&gt;Formatos/templates disponíveis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://rmarkdown.rstudio.com/gallery.html&quot;&gt;Galeria de exemplos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/rticles&quot;&gt;Templates acadêmicos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yihui.name/knitr/demo/showcase/&quot;&gt;Várias dicas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -340,31 +481,6 @@
         <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
         <link>/tree-of-codes/</link>
         <guid isPermaLink="true">/tree-of-codes/</guid>
-        
-        
-        <category>Jekyll</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Red Riding Hood</title>
-        <description>&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
-
-&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
-
-&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-        <link>/red-riding/</link>
-        <guid isPermaLink="true">/red-riding/</guid>
         
         
         <category>Jekyll</category>
