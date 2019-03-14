@@ -32,7 +32,6 @@ Algumas coisas que me chamaram a atenção:
 {% include vimeoPlayer.html id=178485416 %}
 Vídeo que está disponível na página de introdução do [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
 
-
 Até o momento estou no processo de construção de ambiente e adaptação de materiais que já fiz para compreender o quanto ele é extensível, mas ao que pude observar é uma tendência que não tem mais volta. Será?!
 
 ## Saiba mais
@@ -43,6 +42,7 @@ Até o momento estou no processo de construção de ambiente e adaptação de ma
 * [Formatos/templates disponíveis](https://rmarkdown.rstudio.com/formats.html)
 * [Galeria de exemplos](https://rmarkdown.rstudio.com/gallery.html)
 * [Templates acadêmicos](https://github.com/rstudio/rticles)
+* [Várias dicas](https://yihui.name/knitr/demo/showcase/)
 
 [rmarkdown]: https://rmarkdown.rstudio.com/formats.html
 [Jekyll]: http://jekyllrb.com
