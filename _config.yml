@@ -1,5 +1,6 @@
 # Site
 name: "Mediumish"
+title: "Mediumish"
 description: "Jekyll Template for Blogging"
 meta_description: "Jekyll template, Medium styled, free for bloggers."
 logo: 'assets/images/logo.png'
@@ -52,4 +53,10 @@ paginate_path: /page:num/
     
 # Other
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
