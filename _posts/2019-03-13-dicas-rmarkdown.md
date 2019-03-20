@@ -16,6 +16,9 @@ Algumas coisas são sobre R, outras são não. Vamos lá!
 ## Documentação 
 
 - https://www.rforge.net/doc/packages/knitr/00Index.html
+- https://rdrr.io/cran/bookdownplus/src/R/fun.R
+- https://rdrr.io/cran/bookdownplus/man/include_image.html
+- https://beta.rstudioconnect.com/content/3060/Word_Up_Gotta_Get_Up_To_Get_Bookdown.html#cross_referencing
 
 ## Sites em Jekyll com R Markdown
 
@@ -35,6 +38,10 @@ Algumas coisas são sobre R, outras são não. Vamos lá!
 
 - https://community.rstudio.com/t/new-problems-producing-pdf-from-rmarkdown/5850
 - https://github.com/rstudio/rmarkdown/issues/1285
+
+## Livros 
+
+- https://r4ds.had.co.nz/r-markdown-formats.html
 
 ## Usando um arquivo de script
 
@@ -80,6 +87,7 @@ Fonte:  https://yihui.name/knitr/demo/externalization/
 
 ## Como escrever tese/TCC
 
+- https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/
 - https://rosannavanhespenresearch.wordpress.com/2016/03/30/writing-your-thesis-with-r-markdown-5-the-thesis-layout/
 - https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/
 - https://github.com/ismayc/thesisdown/blob/master/inst/rmarkdown/templates/thesis/skeleton/skeleton.Rmd
