@@ -3,7 +3,7 @@
  <title>dicas</title>
  <link href="/tag/dicas/index.xml" rel="self"/>
  <link href="/tag/dicas.html"/>
- <updated>2019-03-15T11:26:24+00:00</updated>
+ <updated>2019-03-20T10:58:13+00:00</updated>
  <id>/tag/dicas.html</id>
  
  
@@ -20,6 +20,9 @@
 
 &lt;ul&gt;
   &lt;li&gt;https://www.rforge.net/doc/packages/knitr/00Index.html&lt;/li&gt;
+  &lt;li&gt;https://rdrr.io/cran/bookdownplus/src/R/fun.R&lt;/li&gt;
+  &lt;li&gt;https://rdrr.io/cran/bookdownplus/man/include_image.html&lt;/li&gt;
+  &lt;li&gt;https://beta.rstudioconnect.com/content/3060/Word_Up_Gotta_Get_Up_To_Get_Bookdown.html#cross_referencing&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;sites-em-jekyll-com-r-markdown&quot;&gt;Sites em Jekyll com R Markdown&lt;/h2&gt;
@@ -47,6 +50,12 @@
 &lt;ul&gt;
   &lt;li&gt;https://community.rstudio.com/t/new-problems-producing-pdf-from-rmarkdown/5850&lt;/li&gt;
   &lt;li&gt;https://github.com/rstudio/rmarkdown/issues/1285&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;livros&quot;&gt;Livros&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://r4ds.had.co.nz/r-markdown-formats.html&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;usando-um-arquivo-de-script&quot;&gt;Usando um arquivo de script&lt;/h2&gt;
@@ -101,6 +110,7 @@
 &lt;h2 id=&quot;como-escrever-tesetcc&quot;&gt;Como escrever tese/TCC&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/&lt;/li&gt;
   &lt;li&gt;https://rosannavanhespenresearch.wordpress.com/2016/03/30/writing-your-thesis-with-r-markdown-5-the-thesis-layout/&lt;/li&gt;
   &lt;li&gt;https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/&lt;/li&gt;
   &lt;li&gt;https://github.com/ismayc/thesisdown/blob/master/inst/rmarkdown/templates/thesis/skeleton/skeleton.Rmd&lt;/li&gt;
